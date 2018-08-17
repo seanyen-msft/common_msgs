@@ -13,10 +13,10 @@ uint8 TEXT_VIEW_FACING=9
 uint8 MESH_RESOURCE=10
 uint8 TRIANGLE_LIST=11
 
-uint8 ADD=0
-uint8 MODIFY=0
-uint8 DELETE=2
-uint8 DELETEALL=3
+uint8 MK_ADD=0
+uint8 MK_MODIFY=0
+uint8 MK_DELETE=2
+uint8 MK_DELETEALL=3
 
 Header header                        # header for time/frame information
 string ns                            # Namespace to place this object in... used in conjunction with id to create a unique name for the object
