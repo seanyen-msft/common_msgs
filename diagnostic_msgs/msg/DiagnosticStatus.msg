@@ -2,10 +2,10 @@
 # 
 
 # Possible levels of operations
-byte DIAG_OK=0
-byte DIAG_WARN=1
-byte DIAG_ERROR=2
-byte DIAG_STALE=3
+byte OK=0
+byte WARN=1
+byte ERROR=2
+byte STALE=3
 
 byte level # level of operation enumerated above 
 string name # a description of the test/component reporting
